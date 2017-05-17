@@ -39,6 +39,7 @@ public class View {
                 " exception stack trace.");*/
         enterItem(10);
         enterItem(1);
+        enterItem(2);
         enterItem(11);
 
         }
