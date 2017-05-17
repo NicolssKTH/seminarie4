@@ -56,7 +56,6 @@ public class View {
     }
 
     /**
-     *
      * @param uiMsg the message which the user gets.
      * @param exc the message which sent to the log.
      */

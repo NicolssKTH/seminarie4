@@ -83,6 +83,11 @@ public class Controller {
         return sale.createReceipt(payedAmount);
     }
 
+    /**
+     * Adds a class to a SalesObserver list that will be notified when a new item is registered.
+     * @param observer The class to add to the SalesObserver list.
+     */
+
     public void addSalesObserver(SalesObserver observer) {
         saleObservers.add(observer);
     }

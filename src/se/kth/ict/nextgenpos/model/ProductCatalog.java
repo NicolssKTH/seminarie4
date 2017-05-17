@@ -26,7 +26,7 @@ public class ProductCatalog {
      * Search for an item in the product catalog.
      *
      * @param itemId The item to look for
-     * @throws if the item id doesn't exist in the product catalog.
+     * @throws ItemNotFoundException if the item id doesn't exist in the product catalog.
      * @return The specification for the found item or null if no item was found.
      */
     public ProductSpecification findSpecification(int itemId) throws ItemNotFoundException {

@@ -15,6 +15,13 @@ public class SalesItemDisplay implements SalesObserver{
 
     private ArrayList<SalesLineItem> noOfItemsRegistered = new ArrayList<>();
 
+    /**
+     *  Request to add new item in a list and ask for printout.
+     *
+     * @param lineItem the item.
+     * @throws ItemNotFoundException if the item id doesn't exsist.
+     */
+
     @Override
         public void newItem(SalesLineItem lineItem) throws ItemNotFoundException{
         addNewItem(lineItem);

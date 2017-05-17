@@ -34,6 +34,12 @@ public class Sale {
         notifyObservers();
     }
 
+    /**
+     * notify all observers if a new item has been added to the product catalog.
+     *
+     * @throws ItemNotFoundException
+     */
+
     private void notifyObservers() throws ItemNotFoundException {
         int index = (lineItems.size()-1);
         for (SalesObserver observer : salesObservers){
